@@ -1,10 +1,18 @@
 # Jarvis-the-Virtiual-Astistent
 ## Usage:
+***1. First Step is to install all requirnment modules and library in python by following command,*** 
+```
+!pip install -r requirnment.txt
+```
+***2. After successfully installing requirnment file now finally run our main.py file for Jarvis-the-Virtiual-Astistent,***
+```
+!python main.py
+```
+> Before Executing main.py file make sure you have Installed all the specified versions of moduels mentioned in the requirement.txt.
 
 
-
-
-A VA Build on python by using several libraries. it can perform various tasks by just spoken command
+# ***Workings:***
+> A VA Build on python by using several libraries. it can perform various tasks by just spoken command
 import os
 import pyttsx3
 import speech_recognition as sr
@@ -184,8 +192,6 @@ def speak_Hi(text1):
 
 #speak0('Welcome to the world of Guptaji. I am Gupta Jarvis 1.0')
 #speak0('assigning BAli for you')
-#('गप्ताजी की दुनिया में आपका स्वागत है। मैं हूँ गुप्ता जार्विस 1.0')
-#speak_Hi("बाली को आपके सेवा में हाजिर किया जाता है")
 speak1('bali activated')
 
 
@@ -288,19 +294,4 @@ def task_executer():
 
 
 
- # if "गुप्ता जी" in text:
- # if "आप कैसे हो" in text:
- #    speak1("मैं बहुत अच्छी हूं मुझे आशा है कि आप अच्छे ही होंगे")
 
- # elif "मैं कौन हूं" in text:
- # speak1("में आपको पहिचान नहीं पा रही हूं पर हा आपकी पहिचान जानने में उत्शुक्ता रखती हूं")
-
- # elif "गुप्ता जी बाय" in text:
- # speak1("ठीक है सर जल्द मिलेंगे")
- # break
-
- # else:
- # speak1("बोलो मालिक")
-
-
-task_executer()
